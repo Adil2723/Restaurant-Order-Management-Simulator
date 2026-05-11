@@ -133,34 +133,6 @@ Restaurant-Order-Management-Simulator/
 └── assets/
 ```
 
----
-
-# ⚙️ Build & Run
-
-## 🔨 Compile
-
-```bash
-gcc -o restaurant_sim restaurant_sim.c -lpthread -lm
-```
-
-## ▶️ Run
-
-```bash
-./restaurant_sim
-```
-
----
-
-# 📊 Example Output
-
-```text
-=== Restaurant Order Management Simulator ===
-Chefs: 2 (dynamic), Queue capacity: 50
-Writing state to: sim_state.json
-Press Ctrl+C to stop.
-
-[Summary] Total=15 Queue=3 Cooking=2 Done=10 Cancelled=0 Chefs=3
-```
 
 ---
 
@@ -267,19 +239,6 @@ Useful for:
 
 ---
 
-# 🧪 Testing Scenarios
-
-The simulator was tested for:
-
-- High concurrent workloads
-- Queue overflow handling
-- Synchronization correctness
-- Dynamic speed changes
-- Multiple active chefs
-- Resource conflict prevention
-
----
-
 # 📚 Learning Outcomes
 
 This project provides practical understanding of:
@@ -303,38 +262,6 @@ This project provides practical understanding of:
 | Muhammad Haseem Samo | 24K-0666 |
 
 ---
-
-# 👨‍🏫 Course Information
-
-| Field | Details |
-|---|---|
-| Course | Operating Systems |
-| Instructor | Mr Ubaidullah |
-| University | FAST-NUCES Karachi |
-
----
-
-# 📖 References
-
-- Operating System Concepts — Silberschatz
-- POSIX Threads Documentation
-- Linux Semaphore Documentation
-- GCC Compiler Documentation
-- FAST-NUCES Operating Systems Course Material
-
----
-
-# 🌟 Highlights
-
-✅ Real-world OS simulation  
-✅ Advanced synchronization mechanisms  
-✅ Dynamic thread management  
-✅ Priority scheduling implementation  
-✅ Thread-safe architecture  
-✅ Live JSON state monitoring  
-
----
-
 <p align="center">
   <b>Restaurant Order Management Simulator</b><br>
   Operating Systems Project • FAST-NUCES Karachi
