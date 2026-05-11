@@ -3,10 +3,6 @@
 </h1>
 
 <p align="center">
-  <img src="image.png" width="100%" alt="Restaurant Order Management Simulator Banner"/>
-</p>
-
-<p align="center">
   A Multithreaded Operating System Simulation using C & POSIX Threads
 </p>
 
@@ -39,5 +35,39 @@ The simulator models a real-world restaurant environment where:
 ✅ VIP customers receive higher priority  
 ✅ Kitchen resources are synchronized safely  
 ✅ Live system state is exported in JSON format  
+
+---
+
+# 🚀 Features
+
+## 🍕 Core Functionalities
+
+- 👨‍🍳 Multithreaded chef processing
+- 🧾 Dynamic customer order generation
+- ⭐ VIP order priority scheduling
+- 🔒 Mutex-based synchronization
+- 🚦 Semaphore-controlled kitchen access
+- 📦 Producer-Consumer implementation
+- ⚡ Adjustable simulation speed
+- ❌ Live order cancellation support
+- 📊 Real-time JSON state output
+- 📈 Dynamic chef scaling
+- 📝 Thread-safe logging system
+
+---
+
+# 🧠 Operating System Concepts Used
+
+| Concept | Implementation |
+|---|---|
+| Producer-Consumer Problem | Waiter & Chef Threads |
+| Multithreading | POSIX Threads (`pthread`) |
+| Mutex Locks | Shared queue protection |
+| Semaphores | Kitchen concurrency control |
+| Condition Variables | Queue synchronization |
+| Priority Scheduling | VIP order handling |
+| Critical Section | Shared state protection |
+| Dynamic Resource Allocation | Auto chef scaling |
+| Synchronization | Mutex + Semaphore |
 
 ---
